@@ -1,0 +1,22 @@
+//Logical AND (&&) 
+//Returns true if both operands are TRUE
+//Logical OR (||)
+//Returns TRUE if one of the operands is TRUE
+
+//console.log(true && true);
+
+let highIncome=true;
+let goodCreditScore=true;
+
+let eligibleForLoan=highIncome && goodCreditScore;
+
+console.log(eligibleForLoan);
+
+let e= eligibleForLoan=highIncome || goodCreditScore;
+console.log('Eligible for Loan '+e);
+
+//NOT (!)
+let applicationRefused = !eligibleForLoan;
+console.log('Application Refused '+applicationRefused); 
+
+
